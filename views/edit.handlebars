@@ -1,0 +1,41 @@
+
+<form method="post" class="fancyform">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+<h2> Edit your Profile </h2>
+<link href='https://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet'>
+
+
+<h4>{{message}}</h4>
+<div>
+
+  <input id="name" name="firstname" type="text" required>
+  <label for="name">Your Name</label>
+</div>
+<div>
+  <input id="name" name="lastname" type="text" required>
+  <label for="name">Your Last Name</label>
+</div>
+<div>
+  <input id="email" name="email" type="text" required>
+  <label for="name">Enter your Email</label>
+</div>
+<div>
+  <input id="password" name="password" type="password" required>
+  <label for="name">Password</label>
+</div>
+<div>
+  <input id="confirmPassword" name="confirmPassword" type="password" required>
+  <label for="name">Confirm Password</label>
+</div>
+
+<div class="button2">
+    <input class="button-input" type="submit" value="Ready">
+</div>
+
+<h2><a class="edita" href="/signers" font-color= "red" >Back</a> to signers</h2>
+<h2><a class="edita" href="/delete_account" font-color= "red" >Delete</a> my account</h2>
+
+
+
+</form>
+

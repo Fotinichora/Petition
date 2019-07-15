@@ -1,0 +1,223 @@
+body {
+  background: url(myimg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#signature {
+  border: 1px black solid;
+
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  border-radius: 2px;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+}
+
+h3 {
+  font: 300 80px/1.3 "Oleo Script", Helvetica, sans-serif;
+  color: #778899;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  padding: 30px;
+
+  font: 300 80px/1.3 "Oleo Script", Helvetica, sans-serif;
+  color: #778899;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+  display: block;
+  text-align: center;
+  margin-top: 150px;
+}
+
+h2 {
+  padding: 30px;
+
+  font: 300 80px/1.3 "Oleo Script", Helvetica, sans-serif;
+  color: #d59dd4;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.thankslink {
+  padding: 30px;
+
+  font: 300 80px/1.3 "Oleo Script", Helvetica, sans-serif;
+
+  color: #d59dd4;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  margin: 10px;
+  left: 105px;
+}
+
+.button2 {
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+.button3 {
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+
+.button3 {
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+
+.button3 {
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+
+.test {
+  display: block;
+  text-align: center;
+
+  margin-left: 750px;
+  bottom: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font: 14px/1.4 Sans-Serif;
+}
+
+form {
+  width: 200px;
+  float: left;
+  margin: 20px;
+}
+form > div {
+  position: relative;
+  overflow: hidden;
+}
+form input,
+form textarea {
+  width: 100%;
+  border: 5px solid white;
+  background: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 8px 12px;
+  outline: 0;
+}
+form input:valid,
+form textarea:valid {
+  background: white;
+}
+form input:focus,
+form textarea:focus {
+  border-color: white;
+}
+form input:focus + label,
+form textarea:focus + label {
+  background: white;
+  color: black;
+  font-size: 70%;
+  padding: 1px 6px;
+  z-index: 2;
+  text-transform: uppercase;
+}
+form label {
+  transition: background 0.2s, color 0.2s, top 0.2s, bottom 0.2s, right 0.2s,
+    left 0.2s;
+  position: absolute;
+  color: white;
+  padding: 7px 6px;
+}
+form textarea {
+  display: block;
+  resize: vertical;
+}
+
+form.fancyform input,
+form.fancyform textarea {
+  padding: 12px 12px 12px 12px;
+}
+form.fancyform label {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+form.fancyform input:focus,
+form.fancyform textarea:focus {
+  padding: 4px 6px 20px 6px;
+}
+form.fancyform input:focus + label,
+form.fancyform textarea:focus + label {
+  top: 100%;
+  margin-top: -16px;
+}
+
+form.fancyform {
+  width: 30%;
+  display: block;
+  text-align: center;
+  margin: 100px;
+  margin-left: 700px;
+  bottom: 50px;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  font: 100 20px/1.3 "Oleo Script", Helvetica, sans-serif;
+  text-shadow: black 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+  color: white;
+  font-size: 20px;
+  font: 100 20px/1.3 "Oleo Script", Helvetica, sans-serif;
+  text-shadow: black 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.myul {
+  border: 3px solid white;
+  font: 100 20px/1.3 "Oleo Script", Helvetica, sans-serif;
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.test3 {
+  width: 20%;
+  display: block;
+  text-align: center;
+
+  margin-left: 750px;
+  bottom: 50px;
+}
+
+.edita {
+  color: #00c9ff;
+  font-size: 20px;
+}

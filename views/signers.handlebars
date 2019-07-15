@@ -1,0 +1,25 @@
+<h3>List from our Signers<font color= "Deeppink"> 90210</font> Petition
+
+    <link href='https://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' >
+</h3>
+
+
+ <h2> Do you want to <a class="edita" href="/edit" font-color= "red" >edit/delete your profile ? </a></h2>
+
+
+
+
+<form  class="test3"method="post">
+
+{{#listSigners}}
+<div class= "test2">
+<ul class= "myul">
+<li id= "mylist" >{{firstname}} {{lastname}}</li>
+</ul>
+</div>
+{{/listSigners}}
+
+<h2>
+<a class="edita" href="/logout" font-color= "red" >Log out </a></h2>
+       <input type="hidden" name="_csrf" value="{{csrfToken}}">
+</form>
